@@ -1,0 +1,43 @@
+/* Footer */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(6, 5, 5);
+    color: white;
+    height: 12.5rem;
+
+    .footer-info {
+        max-width: 400px;
+    }
+
+    .footer-links {
+        .contact-item {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            padding-bottom: 10px;
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    img {
+        width: 20px;
+        height: 20px;
+        object-fit: cover;
+        margin-right: 10px;
+        border-radius: 50%;
+    }
+}

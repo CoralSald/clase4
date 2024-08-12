@@ -1,0 +1,33 @@
+@media (max-width: 819px) {
+    .card-us, .card-our-clients, .card-our-services {
+        flex-direction: column; 
+        height: auto; 
+        padding: 1rem; 
+    }
+
+    .cardimg, .card-our-clients-info, .card-our-services-info {
+        width: 100%; 
+        height: auto; 
+        margin-bottom: 1rem; 
+    }
+
+    .cardimg img {
+        width: 100%; 
+        height: auto; 
+        
+    }
+
+    .card-us-info, .card-our-clients-info, .card-our-services-info {
+        padding: 0 1rem; 
+    }
+
+    .card-us-info p, .card-our-clients-info p, .card-our-services-info p {
+        font-size: 1rem; 
+    }
+
+    .card-us-info h3, .card-our-clients-info h3, .card-our-services-info h3 {
+        font-size: 2rem; 
+        align-self: center;
+    }
+}
+

@@ -1,0 +1,171 @@
+@media (max-width: 320px) {
+    .about-us .descripcion-todaspaginas {
+        height: 5rem;
+        padding-left: 5px;
+        padding-top: 3px;
+    }
+
+    .about-us-titulo {
+        font-size: 20px;
+    }
+
+    .card-us .cardimg,
+    .card-our-clients .cardimg,
+    .card-our-services .cardimg {
+        width: 100%;
+    }
+
+    .card-us .card-us-info h3,
+    .card-our-clients .card-our-clients-info h3,
+    .card-our-services .card-our-services-info h3 {
+        font-size: 24px;
+    }
+
+    .card-us .card-us-info p,
+    .card-our-clients .card-our-clients-info p,
+    .card-our-services .card-our-services-info p {
+        font-size: medium;
+    }
+}
+
+@media (max-width: 320px) {
+    .descripcion-todaspaginas {
+        padding-left: 1px;
+        padding-top: 1px;
+        height: auto;
+    }
+
+    .descripcion-mia {
+        h2 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: smaller;
+        }
+    }
+
+    .contenedor-cards,
+    .contenedor-cards2 {
+        .card {
+            width: 90%;
+            margin: 0.5rem;
+        }
+
+        .card-img img {
+            width: 25px;
+            height: 25px;
+        }
+
+        .card-img h3 {
+            font-size: 14px;
+        }
+
+        p {
+            font-size: smaller;
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .contenedor-packages {
+        .contenedor-paquete1,
+        .contenedor-paquete2,
+        .contenedor-paquete3,
+        .contenedor-paquete4,
+        .contenedor-paquete5 {
+            .contenedor-paqueteimg,
+            article {
+                width: 100%;
+                padding: 0.15625rem;
+                height: auto;
+            }
+
+            article {
+                h3 {
+                    padding-top: 0.5rem;
+                    font-size: 1rem;
+                }
+
+                p {
+                    padding-top: 0.125rem;
+                    font-size: 0.625rem;
+                    padding-left: 0;
+                }
+            }
+
+            .paquete1-precios,
+            .paquete2-precios,
+            .paquete3-precios,
+            .paquete4-precios,
+            .paquete5-precios {
+                padding: 0.15625rem;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .activities {
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem;
+        border-style: solid;
+        flex-wrap: wrap;
+
+        .activities-info {
+            padding-left: 0;
+            padding-bottom: 1rem;
+
+            h3 {
+                padding-bottom: 1rem;
+                font-size: 1.25rem;
+            }
+        }
+
+        .activities-img {
+            width: 100%;
+            height: auto;
+            padding: 0.5rem;
+
+            img {
+                border-radius: 0.625rem;
+            }
+        }
+    }
+
+    .activities-titulo {
+        h2 {
+            font-size: 1.5rem;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
+    }
+}
+
+@media (max-width: 320px)
+{footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #060505;
+    color: white;
+    height: auto;
+}}
+
+@media (max-width: 320px) {
+    .card-opiniones {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .opiniones-img {
+        height: 80px; /* Adjust image height further */
+    }
+
+    p {
+        padding-top: 10px; 
+    }
+}

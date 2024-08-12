@@ -1,0 +1,103 @@
+@media (max-width: 480px) {
+    .header-index h1 {
+font-size: 1.5rem;
+    }
+
+    .navbar ul li a {
+padding: 0.75rem; 
+    }
+}
+
+@media (max-width: 480px) {
+    .descripcion-todaspaginas {
+        padding-left: 2px;
+        padding-top: 2px;
+        height: 4rem;
+    }
+
+    .descripcion-mia {
+        h2 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: smaller;
+        }
+    }
+
+    .contenedor-cards,
+    .contenedor-cards2 {
+        .card {
+            width: 95%;
+        }
+
+        .card-img img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .card-img h3 {
+            font-size: 16px;
+        }
+
+        p {
+            font-size: smaller;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .contenedor-packages {
+        .contenedor-paquete1,
+        .contenedor-paquete2,
+        .contenedor-paquete3,
+        .contenedor-paquete4,
+        .contenedor-paquete5 {
+            .contenedor-paqueteimg,
+            article {
+                width: 100%;
+                padding: 0.3125rem;
+                height: auto;
+            }
+
+            article {
+                h3 {
+                    padding-top: 0.75rem;
+                    font-size: 1.25rem;
+                }
+
+                p {
+                    padding-top: 0.25rem;
+                    font-size: 0.75rem;
+                    padding-left: 0;
+                }
+            }
+
+            .paquete1-precios,
+            .paquete2-precios,
+            .paquete3-precios,
+            .paquete4-precios,
+            .paquete5-precios {
+                padding: 0.3125rem;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .contenedor-opiniones,
+    .contenedor-opiniones2 {
+        flex-direction: column; /* Stack cards vertically */
+        align-items: center; /* Center cards */
+    }
+
+    .card-opiniones {
+        width: 90%; /* Make cards full width on small screens */
+        max-width: 300px; /* Limit maximum width */
+    }
+
+    p {
+        padding-top: 20px; /* Reduce padding for small screens */
+    }
+}

@@ -1,0 +1,80 @@
+/*PAQUETES*/
+.contenedor-packages {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: auto; 
+
+    .contenedor-paquete1,
+    .contenedor-paquete2,
+    .contenedor-paquete3,
+    .contenedor-paquete4,
+    .contenedor-paquete5 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        height: 18.75rem;
+        justify-content: space-around;
+
+        .contenedor-paqueteimg {
+            display: flex;
+            height: 18.75rem;
+            flex-shrink: 0;
+            width: 25rem;
+            padding: 1.25rem;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 1.25rem;
+            }
+        }
+
+        article {
+            display: flex;
+            height: 18.75rem;
+            width: 53.125rem;
+            color: white;
+            padding: 1.25rem;
+
+            h3 {
+                padding-top: 3.125rem;
+                font-size: 2.1875rem;
+            }
+
+            p {
+                padding-top: 3.125rem;
+                font-size: 1.25rem;
+                padding-left: 0.3125rem;
+            }
+        }
+
+        .paquete1-precios,
+        .paquete2-precios,
+        .paquete3-precios,
+        .paquete4-precios,
+        .paquete5-precios {
+            display: block;
+            align-self: center;
+            color: white;
+            padding: 1.25rem;
+            line-height: 1.875rem;
+
+            p {
+                margin: 0;
+            }
+
+            a {
+                color: orange; 
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

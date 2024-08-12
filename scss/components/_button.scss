@@ -1,0 +1,14 @@
+.buttons {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+    button {
+        border-radius: 2.5rem;
+        width: 100px;
+        height: 40px;
+        background-color: lightblue;
+        font-weight: bolder;
+    }
+}

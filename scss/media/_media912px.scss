@@ -1,0 +1,49 @@
+@media (max-width: 912px) {
+    .contenedor-packages {
+        .contenedor-paquete1,
+        .contenedor-paquete2,
+        .contenedor-paquete3,
+        .contenedor-paquete4,
+        .contenedor-paquete5 {
+            flex-direction: column;
+            height: auto;
+            justify-content: center;
+
+            .contenedor-paqueteimg,
+            article {
+                width: 75%;
+                padding: 0.625rem;
+                height: auto;
+            }
+
+            article {
+                h3 {
+                    padding-top: 1.25rem;
+                    font-size: 1.625rem;
+                }
+
+                p {
+                    padding-top: 0.625rem;
+                    font-size: 0.875rem;
+                    padding-left: 0;
+                }
+            }
+
+            .paquete1-precios,
+            .paquete2-precios,
+            .paquete3-precios,
+            .paquete4-precios,
+            .paquete5-precios {
+                padding: 0.625rem;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 912px) {
+    .contenedor-opiniones, .contenedor-opiniones2 {
+        height: auto;
+
+    }
+}
